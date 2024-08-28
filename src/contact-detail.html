@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="card-header text-white bg-primary">Profile</div>
+    <div class="card-header text-white bg-black">Profile</div>
     <div class="card-body">
       <form role="form">
         <div class="form-group row">
@@ -53,7 +53,7 @@
       </form>
       <div>
         <button
-          class="btn btn-success float-right"
+          class="btn btn-success float-right bg-light text-black"
           click.delegate="save()"
           disabled.bind="!canSave"
         >
