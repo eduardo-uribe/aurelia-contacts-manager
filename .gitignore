@@ -33,7 +33,7 @@ node_modules
 # Compiled files
 /scripts
 /src/environment.ts
-/dist
+# /dist
 /test/coverage-jest
 
 .vercel
